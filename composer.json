@@ -1,0 +1,21 @@
+{
+    "name": "qwib/cms.loc",
+    "authors": [
+        {
+            "name": "Dmytro Khomenko",
+            "email": "hds2014228@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-mbstring": "*",
+      "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Engine\\": "engine",
+            "Cms\\": "cms",
+            "Admin\\": "admin",
+            "Engine\\DI\\": "engine/DI"
+        }
+    }
+}
